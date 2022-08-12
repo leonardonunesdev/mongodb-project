@@ -16,7 +16,6 @@ namespace MongoDBProject.Controllers
         }
 
         [HttpGet]
-        
         public ActionResult<List<Student>> Get()
         {
             return studentService.Get();
